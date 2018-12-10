@@ -99,6 +99,38 @@ Over time, historical incidents are used to predict road maintenance needs so th
 
 **Related Requirements:** [Capture Creation Process](#capture-creation-process), [Capture Accuracy of Geographic Position](#capture-accuracy-of-the-geographic-position), [Machine Readable Provenance](#machine-readable-provenance)
 
+## 4.4 Data Attribution and Re-consent 
+
+**Contibuted by:** Anne Bowser
+
+**Extends:** ?
+
+<details><summary><b>Full Use Case Description (Click to expand/collapse)</b></summary>
+<p>
+Many citizen science volunteers share information with a specific citizen science project to advance that project’s goals.  For example, Nan shares her birding records with eBird, a global citizen science project (and de facto data aggregator) that facilitates avian research and conservation.  Per eBird’s data policies, volunteers contribute under the auspice of a username, which is often their full name.  The eBird database attributes each individual observation to the citizen science volunteer.  However, eBird often shares information with other data aggregators, such as the Global Biodiversity Information Facility (GBIF).   There are few, if any, mechanisms available to ask volunteers like Nan to consent to sharing data with other aggregators like GBIF.  This is problematic because agreements between data aggregators often include existing data, meaning that it’s difficult Nan to simply opt in or out of sharing her information with GBIF.  Further, in the GBIF database, Nan’s birding data is now attributed to “eBird” rather than “Nan,” depriving her of the credit for her scientific labor.   
+</p>
+</details><br/>
+
+**Related Deliverables:** ?
+
+**Related Requirements:** ?
+
+## 4.5 Earth Challenge 2020 Air Quality Data Integration
+
+**Contibuted by:** Anne Bowser
+
+**Extends:** ?
+
+<details><summary><b>Full Use Case Description (Click to expand/collapse)</b></summary>
+<p>
+The Earth Challenge 2020 citizen science project seeks to involve millions of volunteers in collecting 1 billion data points in air quality, water quality, biodiversity, pollution, and clean energy around the 50th anniversary of Earth day.  Earth Challenge 2020 will be structured around a set of critical research questions, which will collect aggregate data to answer a question like, “Is my air safe to breathe?”  For example, data on air quality will come from a) Official air quality monitors deployed by the U.S. State Department; b) Non-authoritative air quality monitors, with varying degrees of quality, deployed by the public; c) Earth observations from missions like GOME, SCIAMACHY, GOME-2 and OMI; and, d) Photographs of point-source polluters, such as oil refineries, collected through a new mobile app.  All data should be accessible through the same geospatial data visualization platform, allowing users to consider information on each data set (e.g., on data quality) and compare information from different sources and granularities (e.g., Earth observations and mobile phone images).  Further, mechanisms should support the improvement of a data set and/or single data point from a non-authoritative air quality monitor following cross-validation with authoritative information.  
+</p>
+</details><br/>
+
+**Related Deliverables:** ?
+
+**Related Requirements:** ?
+
 # 5. Requirements
 
 This chapter lists the requirements for the deliverables of the group, in alphabetical order.
